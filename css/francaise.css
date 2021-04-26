@@ -1,0 +1,140 @@
+footer h1 {
+    font-family: shrikhand;
+    font-weight: normal;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom:1rem;
+  }
+  
+    .footera { 
+      background-color: #353535;
+      color: #FFFFFF;
+      padding-left: 1rem;
+    
+    }
+  
+  footer ul {
+    list-style-type: none;
+  }
+
+ #title {
+  font-family: shrikhand;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main, h1{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
+  font-family: shrikhand;
+  font-weight: normal;
+}
+
+ 
+
+ header img {
+   width: 100%;
+ }
+
+ main {
+   background-color: #F6F6F6;
+ }
+
+ .menu1 {
+   background-color: white;
+   display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+    
+ }
+
+ .menu2 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;    
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu3 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu4 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu5 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu6 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu7 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu8 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu9 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.menu10 {
+  background-color: white;
+  display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.prix {
+  display: flex;
+    flex-direction: column;
+}

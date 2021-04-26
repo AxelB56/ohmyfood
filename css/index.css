@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, helvetica, arial, sans-serif;
+}
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header #title {
+  font-family: shrikhand;
+  height: 30px;
+  font-size: xx-large;
+  margin: 0 auto;
+}
+header .location {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: #eaeaea;
+  color: #2f2f2f;
+  padding: 1rem;
+  font-weight: 500;
+  box-shadow: inset 0px 3px 3px #bebebe;
+}
+header .location i {
+  margin-right: 10px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.presentation button {
+  width: 60%;
+  border: none;
+  height: 50px;
+  border-radius: 2rem;
+  margin: 1rem auto;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  outline: none;
+  background: #9356dc;
+  background: linear-gradient(0deg, #9356dc 21%, #ff79da 100%);
+  box-shadow: 0px 0px 5px #474747;
+  transition: box-shadow, 0.3s ease;
+}
+.presentation button:hover {
+  box-shadow: 0px 5px 5px #474747;
+  background: #a266ec;
+  background: linear-gradient(0deg, #a970ee 21%, #fd90de 100%);
+}
+.presentation .pres-content {
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+.presentation .pres-content h2 {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 24px;
+}
+.presentation .pres-content p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.function .fonctionnement {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 23px;
+}
+.function .fonctionnement-items {
+  margin: 1rem auto;
+  padding: 1.5rem;
+  background-color: #f375dc0c;
+  width: 70%;
+  position: relative;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.199);
+}
+.function .fonctionnement-items p {
+  width: 100%;
+  display: flex;
+  text-align: start;
+  font-weight: 500;
+}
+.function .fonctionnement-items p i {
+  color: #646464;
+  margin-left: 10%;
+  width: 15%;
+  font-size: 1.2rem;
+}
+.function .fonctionnement-items span {
+  position: absolute;
+  font-size: 15px;
+  left: -10px;
+  background-color: #9356DC;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5rem;
+  top: 25px;
+  color: white;
+  font-weight: 300;
+}
+.function .fonctionnement-items:hover {
+  background-color: rgba(238, 130, 238, 0.158);
+}
+.function .fonctionnement-items:hover i {
+  color: #9356DC;
+}
+
+.restaurant {
+  background-color: #edededfc;
+  padding: 0.5rem;
+}
+.restaurant h2 {
+  padding: 1rem;
+  font-size: 24px;
+  margin-top: 1.5rem;
+}
+.restaurant .restaurant-items {
+  background-color: white;
+  border-radius: 1rem;
+  margin: 1.5rem;
+  position: relative;
+  box-shadow: 0px 0px 10px #bcbcbc;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.restaurant .restaurant-items .new {
+  position: absolute;
+  background-color: #99e2d0;
+  color: #058a69;
+  right: 20px;
+  top: 11px;
+  width: 70px;
+  text-align: center;
+  line-height: 12px;
+  font-size: 16px;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  height: 12px;
+}
+.restaurant .restaurant-items img {
+  width: 100%;
+  object-fit: cover;
+  height: 220px;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.restaurant .restaurant-items .restaurant-content {
+  padding: 1rem;
+  position: relative;
+  display: grid;
+  grid-template-areas: "titre coeur" "adresse coeur";
+  grid-template-columns: auto 3rem;
+}
+.restaurant .restaurant-items .restaurant-content i {
+  font-size: x-large;
+  transition: all 0.3s ease-in;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: coeur;
+}
+.restaurant .restaurant-items .restaurant-content i:hover {
+  background: -webkit-linear-gradient(white, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position-y: 52px;
+  font-weight: bold;
+  transform: scale(1.2);
+  animation: coeurAnimation 1s forwards;
+}
+.restaurant .restaurant-items .restaurant-content i:active {
+  transform: scaleZ(0.95);
+}
+.restaurant .restaurant-items .restaurant-content h3 {
+  grid-area: titre;
+}
+.restaurant .restaurant-items .restaurant-content p {
+  grid-area: adresse;
+}
+.restaurant .restaurant-items:hover {
+  transform: scale(1.02);
+}
+
+.footera {
+  background-color: #353535;
+  padding: 1rem;
+}
+.footera h1 {
+  font-family: shrikhand;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 1rem;
+  margin-bottom: -10px;
+}
+.footera ul {
+  list-style: none;
+  padding: 1rem;
+}
+.footera ul li {
+  color: white;
+  margin-top: 0.7rem;
+}
+.footera ul li i {
+  width: 25px;
+}
+
+/*# sourceMappingURL=index.css.map */
