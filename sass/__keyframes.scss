@@ -6,3 +6,24 @@
         background-position-y: 35px;
     }
 }
+
+@keyframes arriveePlats {
+    0%{
+        margin-top: 3rem;
+        opacity: 0;
+    }
+
+    100%{
+        margin-top: 0rem;
+        opacity: 1;
+    }
+}
+
+@keyframes rotationCheck{
+    from{
+        transform: rotate(180deg); 
+    }
+    to{
+        transform: rotate(0deg); 
+    }
+  }

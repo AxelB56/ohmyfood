@@ -1,15 +1,8 @@
-@import "__variables.scss";
+@import "__commun.scss";
+@import "__media.scss";
 
 //HEADER SECTION //
-body {
-  margin: 0;
-  padding: 0;
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  font-family: roboto, helvetica, arial, sans-serif;
-}
+
 
 header {
   display: flex;
@@ -228,29 +221,5 @@ header {
   }
 }
 
-.footera {
-  background-color: #353535;
-  padding: 1rem;
-  h1 {
-    font-family: shrikhand;
-    color: white;
-    font-size: 18px;
-    font-weight: 200;
-    margin-left: 1rem;
-    margin-bottom: -10px;
-  }
 
-  ul {
-    list-style: none;
-    padding: 1rem;
-
-    li {
-      color: white;
-      margin-top: 0.7rem;
-      i {
-        width: 25px;
-      }
-    }
-  }
-}
 

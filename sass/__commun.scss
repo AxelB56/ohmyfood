@@ -1,0 +1,52 @@
+@import "__variables.scss";
+@import "__keyframes.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  font-family: roboto, helvetica, arial, sans-serif;
+}
+
+footer h1 {
+  font-family: shrikhand;
+  font-weight: normal;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footera {
+  background-color: #353535;
+  color: #ffffff;
+  padding-left: 1rem;
+  h1 {
+    font-family: shrikhand;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 1rem;
+    margin-bottom: -10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 1rem;
+
+    li {
+      color: white;
+      margin-top: 0.7rem;
+      i {
+        width: 25px;
+      }
+    }
+  }
+}
+
+footer ul {
+  list-style-type: none;
+}
